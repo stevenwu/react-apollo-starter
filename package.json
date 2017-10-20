@@ -18,6 +18,10 @@
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jsdom",
     "css": "tachyons src/app.css > src/index.css --minify",
-    "watch-css": "chokidar src/app.css -c 'npm run build-css'"
+    "watch-css": "chokidar src/app.css -c 'npm run build-css'",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.13"
   }
 }
